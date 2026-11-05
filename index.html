@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Huayu Cards</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500&display=swap">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<header class="gut"><div class="in"><button class="brand" id="home"><span class="seal" aria-hidden="true">華</span>Huayu Cards</button><div class="hdr-r"><span id="status"></span><span id="who"></span><button class="hbtn" id="logout" hidden>Log out</button></div></div></header>
+<main class="gut"><div class="in" id="app"></div></main>
+<!-- Firebase (accounts + saving decks to each person's account). Set it up in js/firebase-config.js -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="firebase.js"></script>
+<script src="datajava.js"></script>
+<script src="javavocab.js"></script>
+</body>
+</html>
